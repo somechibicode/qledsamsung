@@ -31,8 +31,8 @@ jobs:
           
       - name: Commit changes
         run: |
-          git config --local user.email "pmquanphucthinh@gmail.com"
-          git config --local user.name "pmquanphucthinh"
+          git config --local user.email "johndoe@example.com"
+          git config --local user.name "somechibicode"
           git add -A
           
           arr[0]="chore(bot): 😂 auto commit"
